@@ -38,7 +38,9 @@ Tessa was recently started and is in its early development stage.
 - Simulating player quit during an ongoing task
 
 2. Other useful functionality to implement:
+- PaperMC plugin to record server data on driven client
 - Sending arbitrary packets to paper server
+- Automated inputs to craft/enchant/etc
 - Incorporating pathfinding algorithms
 - Fighting algorithms for testing entity AI. 
 
