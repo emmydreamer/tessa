@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "org.deathcats.mixin.client",
+	"package": "org.tessa.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"ServerConnectMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

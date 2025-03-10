@@ -16,17 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.deathcats.Tessa"
+			"org.tessa.Tessa"
 		],
 		"client": [
-			"org.deathcats.TessaClient"
+			"org.tessa.TessaClient"
 		],
-		"fabric-datagen": [
-			"org.deathcats.TessaDataGenerator"
-		]
+        "preLaunch": [
+            "org.tessa.prelaunch.TessaPreLaunch"
+        ]
 	},
 	"mixins": [
-		"tessa.mixins.json",
 		{
 			"config": "tessa.client.mixins.json",
 			"environment": "client"
